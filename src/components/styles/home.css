@@ -1,0 +1,47 @@
+
+
+.contenedor{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr;
+    gap: 5px;
+    width: 100%;
+    max-width: 1300px;
+    margin: 20px auto;
+    
+  
+}
+
+.contenedor > *{
+    background-color:white;
+    border: solid 1px black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    
+}
+.contenedor, h5, p{
+    color: white;
+}
+
+
+/*titulo y footer*/
+ .titulo, .footer{
+    background-color:#12203e;
+    color: white;
+    grid-column: 1 / 4;
+    height: 50px;
+}
+.titulo{
+    grid-row: 1/2;
+}
+.footer{
+    grid-row: 3/4;
+}
+
+.redes{
+    width:30px;
+    height: 30px;
+}
+
+
