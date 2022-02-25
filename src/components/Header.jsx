@@ -20,12 +20,12 @@ const Header = () => {
     <h1>Portafolio</h1>
 
          
-    <a className="navbar-brand" href="https://github.com/Fernandotm573/ProyectMERN.git">
+    <a className="navbar-brand" href="https://github.com/Fernandotm573/proyecto-form.git">
       <img src={logoPhp} className="header-logo" alt="logo"/>
       <p>Proyecto1</p>
     </a>
       
-    <a className='navbar-brand' href="https://github.com/Fernandotm573/desarrollador-m3.git">
+    <a className='navbar-brand' href="https://github.com/Fernandotm573/ProyectMERN.git">
       <img src={logoReact} className="header-logo" alt="logo"/>
       <p>Proyecto2</p>
     </a>
